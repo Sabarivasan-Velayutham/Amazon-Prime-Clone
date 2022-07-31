@@ -1,0 +1,65 @@
+.footer-section {
+    color: #949494;
+    background-color: #222222;
+
+}
+
+.login-footer-content-section {
+    font-family: "Amazon Ember";
+    padding: 24px;
+    text-align: center;
+    margin-top: -10%;
+}
+
+.footer-content-section {
+    font-family: "Amazon Ember";
+    padding: 24px;
+    text-align: center;
+}
+
+
+.terms-privacy {
+    display: inline-block;
+    color: #0f79af;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    .login-footer-section {
+        color: #949494;
+        font-size: small;
+    }
+
+    .login-footer-content-section {
+        font-family: "Amazon Ember";
+        padding: 24px;
+        text-align: center;
+        margin-top: -4%;
+    }
+
+
+    .login-terms-privacy {
+        display: block;
+        color: #0f79af;
+        cursor: pointer;
+        margin-right: 3%;
+    }
+
+    .login-terms-privacy :hover {
+        color: rgb(240, 193, 75);
+    }
+
+    .login-terms-privacy span {
+        padding-left: 30px;
+    }
+
+    .login-copyright {
+        display: block;
+        padding-left: 1%;
+    }
+}

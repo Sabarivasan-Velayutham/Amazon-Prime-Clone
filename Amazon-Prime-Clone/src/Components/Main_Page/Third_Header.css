@@ -1,0 +1,100 @@
+.third-header-whole-container {
+    background-color: black;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.third-header-container {
+    margin-top: -10%;
+}
+
+.third-header-content-1-0 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.third-header-content-2-0 {
+    text-align: center;
+    font-size: large;
+    padding: 3%;
+
+}
+
+.third-header-images-container img {
+    width: 90%;
+    height: 70%;
+    padding: 1%;
+}
+
+.third-header-container button {
+    text-align: center;
+    width: 90%;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #0f79af;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 3px;
+    font-size: 17px;
+    line-height: 20px;
+    transition: all .45s;
+    margin-top: 0;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .third-header-whole-container {
+        display: flex;
+    }
+
+    .third-header-container {
+        margin-top: 1%;
+        width: 70%;
+        padding: 5%;
+    }
+
+    .third-header-content-1-0 {
+        font-size: 40px;
+        text-align: left;
+        font-weight: 400;
+    }
+
+    .third-header-content-2-0 {
+        text-align: left;
+        font-size: large;
+        margin-right: 5%;
+        margin-left: -2%;
+
+    }
+
+
+    .third-header-images-container img {
+        width: 120%;
+        height: 100%;
+    }
+
+    .third-header-container button {
+        text-align: center;
+        width: 60%;
+        font-weight: lighter;
+        color: #fff;
+        background-color: #0f79af;
+        border: none;
+        padding: 14px 20px;
+        border-radius: 3px;
+        font-size: 17px;
+        line-height: 20px;
+        transition: all .45s;
+        margin-top: 0;
+        cursor: pointer;
+        margin-left: 0%;
+    }
+
+    .third-header-container button:hover {
+        transition: all .1s ease-out;
+        filter: brightness(120%);
+    }
+}

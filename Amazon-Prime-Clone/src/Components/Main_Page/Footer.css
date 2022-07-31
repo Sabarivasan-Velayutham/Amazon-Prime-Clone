@@ -1,0 +1,63 @@
+.footer-section {
+    color: #949494;
+    background-color: #222222;
+
+}
+
+.footer-content-section {
+    font-family: "Amazon Ember";
+    padding: 24px;
+    text-align: center;
+}
+
+.footer-image {
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+.terms-privacy {
+    cursor: pointer;
+    display: inline-block;
+    color: #0f79af;
+}
+
+.copyright {
+    display: inline-block;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    .footer-section {
+        color: #949494;
+        background-color: #222222;
+    }
+
+    .footer-content-section {
+        font-family: "Amazon Ember";
+        padding: 24px;
+        text-align: center;
+    }
+
+    .footer-image {
+        display: block;
+        width: 13%;
+        margin-left: 45%;
+    }
+
+    .terms-privacy {
+        display: inline-block;
+        color: #0f79af;
+    }
+
+    .terms-privacy span {
+        padding-left: 8px;
+    }
+
+    .copyright {
+        display: inline-block;
+        padding-left: 1%;
+    }
+}
